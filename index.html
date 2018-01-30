@@ -12,6 +12,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
+  <script src="bericht.js"></script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -99,7 +100,7 @@
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-eye-open logo-small"></span>
       <h4>Open bron</h4>
-      <p>Onze code is open en voor iedereen beschikbaar. Zelfs voor je klant bent kan je hem al inkijken.</p>
+      <p>Onze code is open en voor iedereen beschikbaar. Zelfs vóór je klant bent kan je hem al inkijken.</p>
     </div>
   </div>
   <br><br>
@@ -168,7 +169,7 @@
         <h4>"Geweldig! Nu hoef ik mijn leerlingenkaart niet meer mee te nemen."<br><span>Stijn Huysegems, Leerling, TSM</span></h4>
       </div>
       <div class="item">
-        <h4>"Leerlingen vergeten hun gsm nooit, dus gaat dat handig zijn om geen misverstanden meer te hebben."<br><span>Virginie Ravinet, Leerkracht, De Groene Planeet</span></h4>
+        <h4>"Leerlingen vergeten hun gsm nooit, er zijn dus geen misverstanden meer."<br><span>Virginie Ravinet, Leerkracht, De Groene Planeet</span></h4>
       </div>
     </div>
 
@@ -270,7 +271,7 @@
       <textarea class="form-control" id="comments" name="comments" placeholder="Bericht" rows="5"></textarea><br>
       <div class="row">
         <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
+          <button onclick="error()" class="btn btn-default pull-right" type="submit">Stuur</button>
         </div>
       </div>
     </div>
