@@ -1,3 +1,3 @@
 function error(){
-  window.alert("Kon bericht niet versturen. Probeer ons te contacteren via mail.");
+  window.alert("Kon bericht niet verzenden. Kijk uw internetverbinding na of stuur een mail naar info@smartpass.one");
   }
