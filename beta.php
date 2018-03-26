@@ -1,7 +1,9 @@
 <?php
 $to = 'info@smartpass.one';
-$subject = $_POST["name"];
-$message = $_POST["comments"];
+$subject = $_POST["naam"];
+$subject = $subject . ' | Beta aanvraag';
+$school = $_POST["school"];
+$message = 'School: ' . $school . "\r\n\r\n" . $_POST["bericht"];
 $from = $_POST["email"];
 if(!empty($from)){
     $headers = 'From: ' . $from . "\r\n" .
@@ -15,7 +17,9 @@ window.location.href='https://smartpass.one/';
 </script>";
 }
 else{
-    header("Location: https://smartpass.one/");
-die();
+    echo "<script>
+alert('Gelieve al uw gegevens in te vullen.');
+window.location.href='https://smartpass.one/beta.html';
+</script>";
 }
 ?>

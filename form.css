@@ -1,0 +1,48 @@
+#naam {
+    margin: 10px;
+    width: 31%;
+}
+
+#school {
+    margin: 10px;
+    width: 31%;
+}
+
+#email {
+    margin: 10px;
+    width: 31%;
+}
+
+#bericht {
+    margin: 10px auto;
+    width: 87%;
+    margin:0 auto;
+    display:block;
+}
+
+#knop {
+    margin:0 auto;
+    display:block;
+    position: relative;
+    top: 10px;
+}
+
+#logo {
+    margin:0 auto;
+    display:block;
+}
+
+.container {
+  width: 90%;
+  background: #fff;
+  margin: 10px auto;
+  position: relative;
+  top: 10px;
+  text-align:center;
+}
+
+
+h2 {
+    text-align: center;
+    color: #607D8B;
+}

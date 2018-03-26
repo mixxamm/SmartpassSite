@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Smartpass | Wachtlijst</title>
+        <meta name="theme-color" content="#ECEFF1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="form.css">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-pink.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    </head>
+    <body>
+        <img id="logo" src="afbeeldingen/Smartpass.png">
+        <h2>Wachtlijst</h2>
+
+<form action="wachtlijst.php" method="POST">
+    <div class="container">
+  <div id="naam" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input name="naam" class="mdl-textfield__input" type="text">
+    <label class="mdl-textfield__label">Naam</label>
+  </div>
+  
+  <div id="school" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input name="school" class="mdl-textfield__input" type="text">
+    <label class="mdl-textfield__label">School</label>
+  </div>
+  
+  <div id="email" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input name="email" class="mdl-textfield__input" type="text">
+    <label class="mdl-textfield__label">E-mail</label>
+  </div>
+</div>
+
+<div id="bericht" class="mdl-textfield mdl-js-textfield">
+    <textarea name="bericht" class="mdl-textfield__input" type="text" rows= "8"></textarea>
+    <label class="mdl-textfield__label">Bericht (optioneel)</label>
+  </div>
+
+
+<button id="knop" type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">Zet mijn school op de wachtlijst</button>
+</form>
+
+
+
+
+    </body>
+</html>

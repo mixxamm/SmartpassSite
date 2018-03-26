@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#607D8B" />
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
@@ -12,6 +13,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
+  <script src="aanschaffen.js"></script>
   <script src="bericht.js"></script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -40,7 +42,8 @@
 
 <div class="jumbotron text-center">
   <h1>Smartpass</h1> 
-  <p>Een veiliger, digitaal alternatief voor middagpasjes op scholen.</p> 
+  <p>Een veiliger, digitaal alternatief voor middagpasjes op scholen.</p>
+  <a href="https://smartpass.one/beta.html"><h2>Doe mee aan de gratis beta</h2></a>
   <!--<form>
     <div class="input-group">
       <input type="email" class="form-control" size="50" placeholder="Email Address" required>
@@ -108,7 +111,7 @@
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-qrcode logo-small"></span>
       <h4>Vervalsen onmogelijk</h4>
-      <p>QR-code garandeerd echtheid leerlingenkaart</p>
+      <p>QR-code garandeert echtheid leerlingenkaart</p>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-ok logo-small"></span>
@@ -130,7 +133,7 @@
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="afbeeldingen/367.png" alt="Axel Hamelryck" width="400" height="300">
+        <img src="afbeeldingen/axel.jpg" alt="Axel Hamelryck" width="400" height="300">
         <p><strong>Axel Hamelryck</strong></p>
         <p>Beheer van databases & ontwikkelaar web-app</p>
       </div>
@@ -144,7 +147,7 @@
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="afbeeldingen/365.png" alt="Jorn De Loenen" width="400" height="300">
+        <img src="afbeeldingen/jorn.jpg" alt="Jorn De Loenen" width="400" height="300">
         <p><strong>Jorn De Loenen</strong></p>
         <p>Ontwikkelaar iOS-app</p>
       </div>
@@ -163,13 +166,13 @@
     <!-- Tekst die wordt getoond -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <h4>"Smartpass helpt onze school enorm hard bij de administratie."<br><span>Jan De Boeck, Directeur, colomaPLUS</span></h4>
+        <h4>""<br><span></span></h4>
       </div>
       <div class="item">
-        <h4>"Geweldig! Nu hoef ik mijn leerlingenkaart niet meer mee te nemen."<br><span>Stijn Huysegems, Leerling, TSM</span></h4>
+        <h4>""<br><span></span></h4>
       </div>
       <div class="item">
-        <h4>"Leerlingen vergeten hun gsm nooit, er zijn dus geen misverstanden meer."<br><span>Virginie Ravinet, Leerkracht, De Groene Planeet</span></h4>
+        <h4>""<br><span></span></h4>
       </div>
     </div>
 
@@ -203,9 +206,9 @@
           <p><strong>Gratis</strong> Configuratie</p>
         </div>
         <div class="panel-footer">
-          <h3>€1.69</h3>
+          <h3>€0.00</h3>
           <h4>per leerling/jaar</h4>
-          <button class="btn btn-lg">Aanschaffen</button>
+          <button onclick="aanschaffen()" class="btn btn-lg">Aanschaffen</button>
         </div>
       </div>      
     </div>     
@@ -221,9 +224,9 @@
           <p><strong>Gratis</strong> Ondersteuning</p>
         </div>
         <div class="panel-footer">
-          <h3>€2.79</h3>
+          <h3>€0.00</h3>
           <h4>per leerling/jaar</h4>
-          <button class="btn btn-lg">Aanschaffen</button>
+          <button onclick="aanschaffen()" class="btn btn-lg">Aanschaffen</button>
         </div>
       </div>      
     </div>       
@@ -240,9 +243,9 @@
           <p><strong>Automatische</strong> scanners*</p>
         </div>
         <div class="panel-footer">
-          <h3>€3.29</h3>
+          <h3>€0.00</h3>
           <h4>per leerling/jaar</h4>
-          <button class="btn btn-lg">Aanschaffen</button>
+          <button onclick="aanschaffen()" class="btn btn-lg">Aanschaffen</button>
         </div>
       </div>      
     </div>    
@@ -296,7 +299,7 @@ marker.setMap(map);
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>*Automatische scanners hebben een éénmalige meerprijs van €2999.99 per stuk.</p>
+  <p>*Automatische scanners hebben een éénmalige meerprijs van €0.00 per stuk.</p>
 </footer>
 
 <script>

@@ -10,6 +10,9 @@ body {
       font-weight: 600;
       margin-bottom: 30px;
   }
+  a.aankondiging {
+      color: #F44336;
+  }
   h4 {
       font-size: 19px;
       line-height: 1.375em;
